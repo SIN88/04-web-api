@@ -1,26 +1,18 @@
-var start button = document.querySelector(start btn)
-var start button = document.querySelector(start btn)
-var start button = document.querySelector(start btn)
-var start button = document.querySelector(start btn)
-var start button = document.querySelector(start btn)
+var timerEl = document.querySelector(".timer");
+var mainEl = document.querySelector("#main");
 
-var start button = document.querySelector(start btn)
-var start button = document.querySelector(start btn)
-var show output = document.querySelector(.hidden
-    )
+var secondsLeft = 30;
 
+function setTime() {
+    var timerInterval = setInterval(function () {
+        secondsLeft--;
+        timeEl.textContext = secondsLeft + "seconds left until GAME OVER";
 
+    if (secondsLeft === 0) {
+        clearInterval(timerInterval);
+       displayMessage ("GAME OVER");
+       console.log("Game Over")
+    }
 
-
-
-
-
-
-
-var answer
-var answer
-var answer
-var answer
-var answer
-var answer
-var answer
+  }, 1000);
+}
