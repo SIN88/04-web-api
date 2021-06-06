@@ -8,12 +8,21 @@ body{
 button{
    
     background-color:rgb(27, 128, 168);
-    border-radius: 30%;
+    border-radius: 30px;
     font-size: 30px;
+    padding: 5px;
 }
 
 .hide {
+    display: none;
+}
 
+.quiz-container {
+    height: 300px;
+    width: 80%;
+    margin:30px auto;
+    background: lightgreen;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 }
-}
+
 
